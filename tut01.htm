@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 
 <html>
+
     <body>
-        <h1>My First GoogleMap</h1>
-        <div id="googlemap" style="width:100%; height:500px;"></div>
+
+        <h1>My First Google Maps</h1>
+
+        <div id="googlemap" style="width:100%;height:1024px;"></div>
+
         <script>
-            function myMap(){
 
-                var mapprop={
-                    center:new google.maps.LatLng(51.508742,-0.120850),zoom:5,};
+            function Myapp(){
 
-                    var map=new google.maps.Map(document.getElementById("googlemap"),mapprop);
+                var mapprop={center:new google.maps.LatLng(51.508742,-0.120850),zoom:5,
+                
+                };
+
+                var map=new google.maps.Map(document.getElementById("googlemap"),mapprop);
+
                 }
                 </script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXjpf_7KKjGVN7m5MpaCGHl6XC1VqMosQ&callback=myMap"></script>
+
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXjpf_7KKjGVN7m5MpaCGHl6XC1VqMosQ&callback=Myapp"></script>
+
     </body>
+
 </html>
-            
+
+
+
+
+
